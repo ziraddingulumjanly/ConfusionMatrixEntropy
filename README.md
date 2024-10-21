@@ -39,7 +39,8 @@ Please see the python code and try to run it.
 
 The entropy values for each pair of classes, based on the given confusion matrix, are as follows:
 
-Entropy for pair (A, B): 0.6730                                                                                                                       Entropy for pair (A, C): 0.6829  
+Entropy for pair (A, B): 0.6730                                                                                                                       
+Entropy for pair (A, C): 0.6829  
 Entropy for pair (B, C): 0.6365
 
 Interpretation
