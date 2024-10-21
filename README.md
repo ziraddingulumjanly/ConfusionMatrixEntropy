@@ -39,9 +39,12 @@ Please see the python code and try to run it.
 
 The entropy values for each pair of classes, based on the given confusion matrix, are as follows:
 
-Entropy for pair (A, B): 0.6730
-Entropy for pair (A, C): 0.6829
+Entropy for pair (A, B): 0.6730 
+
+Entropy for pair (A, C): 0.6829  
+
 Entropy for pair (B, C): 0.6365
+
 
 Interpretation
 Class Pair (A, C) has the highest entropy at 0.6829. This indicates that the model is equally confused between class A and class C, suggesting that the training data for these classes is balanced and likely sufficient. The model struggles equally with distinguishing between these two classes, which often implies the model has been trained with enough representative data for both classes.
