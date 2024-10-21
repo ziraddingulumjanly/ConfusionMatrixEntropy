@@ -12,8 +12,8 @@ $$
 
 Where:
 
-- \( C_{ij} \) is the number of times class \( i \) was predicted as class \( j \) (misclassification).
-- \( C_{ji} \) is the number of times class \( j \) was predicted as class \( i \).
-- The natural logarithm (\(\ln\)) is applied to these probabilities.
+- $$\( C_{ij} \)$$ is the number of times class $$\( i \)$$ was predicted as class $$\( j \)$$ (misclassification).
+- $$\( C_{ji} \)$$ is the number of times class $$\( j \)$$ was predicted as class $$\( i \)$$.
+- The natural logarithm $$(\(\ln\))$$ is applied to these probabilities.
 
 The entropy formula calculates the degree of uncertainty in the model's confusion between two classes. Higher entropy implies that the model is equally likely to confuse the two classes, indicating a balanced dataset for those classes.
